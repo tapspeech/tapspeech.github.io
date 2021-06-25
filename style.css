@@ -25,3 +25,7 @@ ul li{
         border-bottom: 3px solid lightcoral;
     }
 }
+
+p {
+  font-weight: normal;
+}
