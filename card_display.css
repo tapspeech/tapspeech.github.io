@@ -115,6 +115,10 @@ section .section-title {
     color: #1E0F55 !important;
 }
 
+.frontside .card .card-body{
+  font-weight: bold;
+}
+
 .frontside .card .card-title,
 .backside .card .card-title {
     color: #1E0F55 !important;
