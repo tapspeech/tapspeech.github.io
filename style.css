@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 body{
     font-family: 'Proxima Nova', sans-serif;
+    background-color:#F0F6F7;
 }
 ul li{
     font-weight: bold;
