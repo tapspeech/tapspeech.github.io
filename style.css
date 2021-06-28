@@ -1,13 +1,16 @@
-
 @font-face{
     font-family: "Proxima Nova";
     src: url("fonts/metropolis-bold-webfont.woff") format('woff');
     font-weight: bold;
+
 }
 
 body{
     font-family: 'Proxima Nova', sans-serif;
     background-color:#F0F6F7;
+    margin: 100px;
+
+
 }
 ul li{
     font-weight: bold;
@@ -17,15 +20,20 @@ ul li{
 }
 
 .nav-item a.active {
-    border-bottom: 3px solid lightcoral;
+    border-bottom: 3px solid lightcoral;}
+
+.sticky {
+      position: fixed;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 100;
+      border-top: 0;
+      transition: 0.3s;
 }
 
 @media only screen and (min-width: 992px) {
     .nav-item a.active {
         border-bottom: 3px solid lightcoral;
     }
-}
-
-p {
-  font-weight: normal;
 }
