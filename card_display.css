@@ -28,7 +28,7 @@ section .section-title {
 }
 
 #team .card {
-    border: none;
+    border: thin;
     background: #ffffff;
 }
 
