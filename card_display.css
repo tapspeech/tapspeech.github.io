@@ -17,7 +17,7 @@
 }
 
 section {
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 section .section-title {
@@ -68,19 +68,7 @@ section .section-title {
     -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     z-index: 2;
-    background: blue;
 }
-
-.frontside {
-position: absolute;
-z-index: -1;
-top: 20%;
-right: 0%;
-bottom: 0;
-left: 0;
-background: white;
-}
-
 
 .backside {
     position: absolute;
