@@ -16,12 +16,22 @@ ul li{
     font-size: calc(100% + 1vw + 1vh);
 }
 
-.nav-item a.active {
-    border-bottom: 3px solid lightcoral;
-}
-
 @media only screen and (min-width: 992px) {
-    .nav-item a.active {
+    .active {
         border-bottom: 3px solid lightcoral;
     }
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    transition: 0.3s;
+}
+
+#navbar{
+    margin-bottom: 10rem !important;
 }
