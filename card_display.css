@@ -68,7 +68,19 @@ section .section-title {
     -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     z-index: 2;
+    background: blue;
 }
+
+.frontside {
+position: absolute;
+z-index: -1;
+top: 20%;
+right: 0%;
+bottom: 0;
+left: 0;
+background: white;
+}
+
 
 .backside {
     position: absolute;
@@ -130,21 +142,5 @@ section .section-title {
     border-radius: 50%;
 }
 
-.frontside .card .card-body img {
-position: relative;
-z-index: 9;
-background: blue;
-width:500px;
-height:100px;
-}
 
-.frontside .card .card-body img {
-position: absolute;
-z-index: -1;
-top: 20%;
-right: 0%;
-bottom: 0;
-left: 0;
-background: white;
-}
 
