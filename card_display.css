@@ -131,8 +131,20 @@ section .section-title {
 }
 
 .frontside .card .card-body img {
-margin-left: 20px;
-margin-right: 20px;
-margin-top: 20px;
-    background-color: #e9ecfd;
+position: relative;
+z-index: 9;
+background: blue;
+width:500px;
+height:100px;
+}
+
+.frontside .card .card-body img {
+position: absolute;
+z-index: -1;
+top: 20%;
+right: 0%;
+bottom: 0;
+left: 0;
+background: white;
+}
 
