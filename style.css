@@ -1,13 +1,16 @@
-
 @font-face{
     font-family: "Proxima Nova";
     src: url("fonts/metropolis-bold-webfont.woff") format('woff');
     font-weight: bold;
+
 }
 
 body{
     font-family: 'Proxima Nova', sans-serif;
     background-color:#F0F6F7;
+    margin: 100px;
+
+
 }
 ul li{
     font-weight: bold;
