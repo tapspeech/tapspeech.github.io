@@ -40,3 +40,7 @@ ul li{
 #navbar{
     margin-bottom: 10rem !important;
 }
+
+#textbox{
+  height: 100px;
+}
