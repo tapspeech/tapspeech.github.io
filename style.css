@@ -16,11 +16,10 @@
 
 }
 
-
-body{
+body {
     font-family: 'Proxima Nova', sans-serif;
-    background-color:#F0F6F7;
-    margin-top: 8%;
+    background-color: #F0F6F7;
+    margin-top: 5em;
     /* margin-left:2%;
     margin-right:2%; */
 }
