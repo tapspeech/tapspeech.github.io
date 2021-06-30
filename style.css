@@ -10,16 +10,7 @@
 
 }
 
-<<<<<<< HEAD
-=======
-@font-face{
-    font-family: "Proxima ital";
-    src: url("fonts/Metropolis-ExtraLightItalic.woff") format('woff');
 
-}
-
-
->>>>>>> e80659b085da70059bfcacd0ae85e7f3f20d343e
 body{
     font-family: 'Proxima Nova', sans-serif;
     background-color:#F0F6F7;
