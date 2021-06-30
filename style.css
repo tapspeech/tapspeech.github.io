@@ -10,13 +10,19 @@
 
 }
 
+@font-face{
+    font-family: "Proxima ital";
+    src: url("fonts/Metropolis-ExtraLightItalic.woff") format('woff');
+
+}
+
 
 body{
     font-family: 'Proxima Nova', sans-serif;
     background-color:#F0F6F7;
     margin-top: 8%;
-    margin-left:2%;
-    margin-right:2%;
+    /* margin-left:2%;
+    margin-right:2%; */
 }
 
 ul li{
@@ -87,5 +93,27 @@ p {
 @media (min-width:768px) { /* don't break navbar on small screen */
     #nav_center {
         width: 700px /* need to found your width according to your entry*/
+    }
+}
+
+.card {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.card-img-top{
+    width: 100%;
+    object-fit: cover;
+}
+.card-title{
+    text-align: center;
+    color: #6c757d;
+}
+.card-title.p1{
+    font-size: 1.2rem;
+}
+@media (max-width: 768px){
+    .card-title{
+        font-size: 1.2rem;
     }
 }
