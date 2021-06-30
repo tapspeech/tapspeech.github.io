@@ -2,7 +2,6 @@
     font-family: "Proxima Nova";
     src: url("fonts/metropolis-bold-webfont.woff") format('woff');
     font-weight: bold;
-
 }
 
 @font-face{
@@ -10,7 +9,6 @@
     src: url("fonts/Metropolis-Light.woff") format('woff');
 
 }
-
 
 body{
     font-family: 'Proxima Nova', sans-serif;
@@ -22,9 +20,7 @@ body{
 
 ul li{
     font-weight: bold;
-
 }
-
 
 .text-responsive {
     font-size: calc(100% + 1vw + 1vh);
@@ -71,12 +67,10 @@ h2{
 }
 strong {
     font-family: "Proxima Nova";
-
 }
 
 .thin {
     font-family: "Proxima slim";
-
 }
 
 @media (min-width:768px) { /* don't break navbar on small screen */
