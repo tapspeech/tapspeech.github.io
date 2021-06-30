@@ -11,6 +11,12 @@
 
 }
 
+@font-face{
+    font-family: "Proxima ital";
+    src: url("fonts/Metropolis-ExtraLightItalic.woff") format('woff');
+
+}
+
 
 body{
     font-family: 'Proxima Nova', sans-serif;
@@ -63,7 +69,7 @@ h2{
 .list-group-item {
     position: relative;
     display: block;
-    padding: .5rem 1rem;
+
     color: #212529;
     text-decoration: none;
     background-color: #F0F6F7;
@@ -76,6 +82,11 @@ strong {
 
 .thin {
     font-family: "Proxima slim";
+
+}
+
+.ital {
+    font-family: "Proxima ital";
 
 }
 
