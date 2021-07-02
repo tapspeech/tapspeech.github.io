@@ -40,6 +40,8 @@ ul li{
     }
 }
 
+@import (less) 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css';
+
 .navbar {
     background-color: #FFF;
     position: fixed;
@@ -127,6 +129,5 @@ p {
 
 .contact2 {
     font-family: "Proxima slim";
-
-    margin-bottom:23px
+    margin-bottom:15px;
 }
