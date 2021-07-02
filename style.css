@@ -27,6 +27,8 @@ body{
 
 ul li{
     font-weight: bold;
+    margin-top:11px;
+    margin-bottom:11px
 }
 
 .text-responsive {
@@ -116,4 +118,16 @@ p {
     .card-title{
         font-size: 1.2rem;
     }
+}
+
+.contact {
+    font-family: "Proxima slim";
+    margin-top:10px;
+    margin-bottom:23px
+}
+
+.contact2 {
+    font-family: "Proxima slim";
+
+    margin-bottom:23px
 }
